@@ -7,10 +7,11 @@
     <groupId>ru.job4j</groupId>
     <artifactId>job4j_projects</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <modules>
         <module>tracker</module>
         <module>heroes</module>
+        <module>jms_pool</module>
     </modules>
 
     <properties>
