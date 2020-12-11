@@ -1,0 +1,21 @@
+@import "card.css";
+@import "security-form.css";
+@import "task-builder.css";
+
+/* COMMON */
+body {
+    background: #eae7dc;
+}
+
+button:focus, input:focus, textarea:focus {
+    box-shadow: none !important;
+}
+
+/* HEADER */
+.index__header {
+    background: #d8c3a5;
+}
+
+.index__header > .row {
+    min-height: 50px;
+}

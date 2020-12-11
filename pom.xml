@@ -12,7 +12,8 @@
         <module>tracker</module>
         <module>heroes</module>
         <module>jms_pool</module>
-        <module>dreamjob</module>
+        <module>dream_job</module>
+        <module>todolist</module>
     </modules>
 
     <properties>

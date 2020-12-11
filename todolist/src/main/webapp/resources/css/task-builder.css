@@ -1,0 +1,70 @@
+/* TASK BUILDER */
+.task-builder {
+    position: relative;
+    display: inline-block;
+}
+
+/* HEADER */
+.task-builder__header {
+    border: 1px solid #d8c3a5;
+    width: 21rem;
+}
+
+.task-builder__header--show {
+    background: #F5E6CC;
+    border: 1px solid #0d6efd;
+    border-bottom: 1px solid #F5E6CC;
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+
+/* CONTENT */
+.task-builder__content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.task-builder__content--show {
+    display: block;
+    width: 21rem;
+    background: #F5E6CC;
+
+    border: 1px solid #0d6efd;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-top: none;
+}
+
+/* SUBMIT BUTTON */
+.task-builder__submit {
+    background: white;
+    border: 1px solid #ced4da;
+    color: #6c757d;
+}
+
+.task-builder__submit:hover {
+    background: #fbf9f6;
+    color: #0d6efd;
+}
+
+.task-builder__submit:active {
+    background: #f3ede4;
+}
+
+.task-builder__submit:focus {
+    border-color: #8bbafe;
+}
+
+/* CATEGORIES */
+.task-builder__category-label {
+    background: white;
+    color: black;
+
+    box-shadow: none !important;
+    border: 1px solid #ced4da !important;
+}
+.task-builder__category-label:hover {
+    background: #fbf9f6;
+    color: black;
+}

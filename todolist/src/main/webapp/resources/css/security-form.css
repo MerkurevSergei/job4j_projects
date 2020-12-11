@@ -1,0 +1,45 @@
+/* TOGGLE */
+.security-form__toggle {
+    font-size: 0.875rem;
+    color: #0d6efd;
+    text-decoration: none;
+}
+.security-form__toggle:after {
+    display: none;
+}
+.security-form__toggle:hover,
+.security-form__toggle:focus,
+.security-form__toggle.show {
+    color: #3C4BE6;
+}
+
+/* **** */
+/* FORM */
+/* **** */
+
+/* HEADER */
+.security-form__form {
+    width: 20rem;
+    background: #F5E6CC;
+    border: 1px solid #0d6efd;
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+
+/* SUBMIT BUTTON */
+.security-form__submit {
+    background: white;
+    border-color: #8bbafe;
+    color: #0d6efd;
+}
+
+.security-form__submit:hover {
+    background: #fbf9f6;
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.security-form__submit:active {
+    background: #f3ede4;
+    color: #8bbafe;
+}
