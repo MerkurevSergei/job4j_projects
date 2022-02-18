@@ -15,6 +15,7 @@
         <module>dream_job</module>
         <module>todolist</module>
         <module>forum</module>
+        <module>car_accident</module>
     </modules>
 
     <properties>
